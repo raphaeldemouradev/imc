@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ff8a05;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 2px 5px #03030391;
+}
+
+section h2 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold; 
+}
+
+input {
+    padding: 2px;
+}
+
+section > button {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+section div.resposta {
+    padding-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
