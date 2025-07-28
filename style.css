@@ -31,6 +31,12 @@ section h2 {
     padding-bottom: 5px;
 }
 
+section h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.377);
+    font-style: italic;
+}
+
 section p {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -38,7 +44,8 @@ section p {
 }
 
 input {
-    padding: 2px;
+    padding: 4px;
+    color: black;
 }
 
 section > button {
@@ -48,6 +55,11 @@ section > button {
 
 section div.resposta {
     padding-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 footer p {
